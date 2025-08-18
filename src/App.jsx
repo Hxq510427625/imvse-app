@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -14,10 +14,11 @@ import Awards from './pages/Awards';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/imvse-app">
         <Navbar />
         <main className="flex-grow w-full">
           <Routes>
+            <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/home" element={<Home />} />
             <Route path="/society" element={<Society />} />
             <Route path="/conferences" element={<Conferences />} />

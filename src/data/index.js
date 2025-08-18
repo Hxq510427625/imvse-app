@@ -15,7 +15,7 @@ export const slides = [
     },
     {
         id: 3,
-        image: '/homeImage3.JPG',
+        image: '/imvse-pc/homeImage3.JPG',
         title: 'Global Network',
         description: 'Connecting professionals worldwide in mine ventilation and safety'
     }
