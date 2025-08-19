@@ -36,6 +36,80 @@ export const members = [
     { id: 5, name: 'Safety First E', logo: '/imvse-pc/mockImage.jpg' },
     { id: 6, name: 'Mine Tech F', logo: '/imvse-pc/mockImage.jpg' }
 ];
+// Current Members
+export const currentMembers = [
+  {
+    id: 1,
+    position: "Professor",
+    name: "Dr. Belle",
+    organization: "University of Sydney",
+    contact: "belle@example.com",
+  },
+  {
+    id: 2,
+    position: "Associate Professor",
+    name: "Dr. Guangyao Si",
+    organization: "Beijing University of Technology",
+    contact: "si@example.com",
+  },
+  {
+    id: 3,
+    position: "Researcher",
+    name: "Anna Luiza",
+    organization: "Federal University of Rio de Janeiro",
+    contact: "anna@example.com",
+  },
+  {
+    id: 4,
+    position: "Senior Scientist",
+    name: "Dr. Stephen Hardcastle",
+    organization: "Natural Resources Canada",
+    contact: "stephen.hardcastle@example.com",
+  },
+  {
+    id: 5,
+    position: "Lecturer",
+    name: "Prof. Jun Deng",
+    organization: "Tsinghua University",
+    contact: "jun.deng@example.com",
+  },
+  {
+    id: 6,
+    position: "Engineer",
+    name: "Mr. Riza Sani",
+    organization: "Indonesia Mining Association",
+    contact: "riza.sani@example.com",
+  },
+  {
+    id: 7,
+    position: "Assistant Professor",
+    name: "Prof. Devi Prasad Mishra",
+    organization: "Indian Institute of Technology",
+    contact: "mishra@example.com",
+  },
+  {
+    id: 8,
+    position: "Consultant",
+    name: "Mr. Bob Leeming",
+    organization: "UK Health and Safety Executive",
+    contact: "bob.leeming@example.com",
+  },
+  {
+    id: 9,
+    position: "Professor",
+    name: "Prof. Jerzy Krawczyk",
+    organization: "Warsaw University of Technology",
+    contact: "jerzy.krawczyk@example.com",
+  },
+  {
+    id: 10,
+    position: "Research Fellow",
+    name: "Dr. Tonderai Chikande",
+    organization: "University of Zimbabwe",
+    contact: "tonderai.chikande@example.com",
+  },
+];
+
 
 
 // Society page data
